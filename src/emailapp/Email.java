@@ -8,23 +8,21 @@ public class Email {
         private int mailboxCapacity;
         private String alternateEmail;
 
+        // Constructor to receive the first name and last name
 
-// Constructor to receive the first name and last name
+        public Email(String firstName, String lastName) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+                System.out.println("EMAIL CREATED: " + this.firstName + " " + this.lastName);
 
-public Email(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        System.out.println("EMAIL CREATED: " + this.firstName + " " + this.lastName);
+        }
 
+        // Ask for department
 
-}
+        // Set the mailbox capacity
 
-// Ask for department
+        // Set the alternate email
 
-// Set the mailbox capacity
-
-// Set the alternate email
-
-// Change the passwords
+        // Change the passwords
 
 }
